@@ -26,4 +26,22 @@ public class HanoiTest {
         Hanoi hanoi = new Hanoi(3);
         hanoi.run();
     }
+
+    @Test
+    public void oneIterRun() {
+        Hanoi hanoi = new Hanoi(1);
+        hanoi.iterRun();
+    }
+
+    @Test
+    public void twoIterTest() {
+        Hanoi hanoi = new Hanoi(2);
+        hanoi.iterRun();
+    }
+
+    @Test
+    public void threeIterTest() {
+        Hanoi hanoi = new Hanoi(3);
+        hanoi.iterRun();
+    }
 }
